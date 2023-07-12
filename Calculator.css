@@ -1,0 +1,83 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Fraunces&display=swap');
+.buttons{
+    margin-top:0 ;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 10px;
+    grid-gap: 3px;
+}
+h1{
+    color:black;
+    font-size: 40px;
+    font-family: 'Fraunces', serif;
+}
+.calculator{
+    border: 1px solid white;
+    height: 450px;
+    padding: 35px 15px 0px 15px;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: #1D2228;
+}
+body{
+    background-color: #FB8122;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.input-button{
+    padding: 15px;
+    width: 90px;
+    background-color: #E1E2E2;
+    color:black;
+    border:2px solid #FB8122;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Fraunces', serif;
+}
+#clear{
+    width: 90px; 
+    background-color: #E1E2E2;
+    color:black;
+    border:2px solid #FB8122;
+    border-radius: 5px; 
+    font-size: 20px;
+    font-family: 'Fraunces', serif;
+}
+#erase{
+    width: 90px;
+    background-color: #E1E2E2;
+    color:black;
+    border:2px solid #FB8122;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Fraunces', serif;
+}
+.equal{
+    width: 90px;
+    background-color: #E1E2E2;
+    color:black;
+    border:2px solid #FB8122;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Fraunces', serif;
+}
+.display{
+    background-color: #E1E2E2;
+    color:black;
+    border:2px solid #FB8122;
+    margin-left: 10px;
+    border-radius: 5px;
+    
+}
+input[type="text"]{
+    height: 35px;
+    width: 95%;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-family: 'Fraunces', serif;
+}
+
